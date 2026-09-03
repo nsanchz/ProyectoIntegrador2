@@ -37,7 +37,7 @@ public class Conexion {
     //Crear un metodo para una conexion local
     public static Connection conectar() {
         try {
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bd_sistema_ventas", "root", "0507");
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bd_sistema_ventas", "root", "S1st3m4s$2026");
             return cn;
         } catch (SQLException e) {
             System.out.println("Error en la conexion local " + e);
